@@ -1,0 +1,242 @@
+[
+  {
+    "id": "fd-560615",
+    "start": "2026-10-25T14:00:00.000Z",
+    "title": "Premier League: Manchester United FC – AFC Bournemouth",
+    "durationHours": 2,
+    "cancelled": false,
+    "stamp": "2026-10-23T11:28:58.978Z"
+  },
+  {
+    "id": "fd-560626",
+    "start": "2026-10-31T12:30:00.000Z",
+    "title": "Premier League: Chelsea FC – Manchester United FC",
+    "durationHours": 2,
+    "cancelled": false,
+    "stamp": "2026-10-23T11:28:58.978Z"
+  },
+  {
+    "id": "fd-575383",
+    "start": "2026-11-03T20:00:00.000Z",
+    "title": "UEFA Champions League: Manchester United FC – AS Roma",
+    "durationHours": 2,
+    "cancelled": false,
+    "stamp": "2026-10-23T11:28:58.978Z"
+  },
+  {
+    "id": "fd-560639",
+    "start": "2026-11-08T16:30:00.000Z",
+    "title": "Premier League: Manchester United FC – Aston Villa FC",
+    "durationHours": 2,
+    "cancelled": false,
+    "stamp": "2026-10-23T11:28:58.978Z"
+  },
+  {
+    "id": "fd-560645",
+    "start": "2026-11-22T16:30:00.000Z",
+    "title": "Premier League: Liverpool FC – Manchester United FC",
+    "durationHours": 2,
+    "cancelled": false,
+    "stamp": "2026-10-23T11:28:58.978Z"
+  },
+  {
+    "id": "fd-575411",
+    "start": "2026-11-25T20:00:00.000Z",
+    "title": "UEFA Champions League: Sporting Clube de Portugal – Manchester United FC",
+    "durationHours": 2,
+    "cancelled": false,
+    "stamp": "2026-10-23T11:28:58.978Z"
+  },
+  {
+    "id": "fd-560655",
+    "start": "2026-11-28T15:00:00.000Z",
+    "title": "Premier League: Manchester United FC – Brentford FC",
+    "durationHours": 2,
+    "cancelled": false,
+    "stamp": "2026-10-23T11:28:58.978Z"
+  },
+  {
+    "id": "fd-560670",
+    "start": "2026-12-02T20:15:00.000Z",
+    "title": "Premier League: Newcastle United FC – Manchester United FC",
+    "durationHours": 2,
+    "cancelled": false,
+    "stamp": "2026-10-23T11:28:58.978Z"
+  },
+  {
+    "id": "fd-560673",
+    "start": "2026-12-05T15:00:00.000Z",
+    "title": "Premier League: Manchester United FC – Coventry City FC",
+    "durationHours": 2,
+    "cancelled": false,
+    "stamp": "2026-10-23T11:28:58.978Z"
+  },
+  {
+    "id": "fd-575420",
+    "start": "2026-12-08T20:00:00.000Z",
+    "title": "UEFA Champions League: Manchester United FC – RB Leipzig",
+    "durationHours": 2,
+    "cancelled": false,
+    "stamp": "2026-10-23T11:28:58.978Z"
+  },
+  {
+    "id": "fd-560683",
+    "start": "2026-12-13T19:00:00.000Z",
+    "title": "Premier League: Crystal Palace FC – Manchester United FC",
+    "durationHours": 2,
+    "cancelled": false,
+    "stamp": "2026-10-23T11:28:58.978Z"
+  },
+  {
+    "id": "fd-560699",
+    "start": "2026-12-20T16:30:00.000Z",
+    "title": "Premier League: Arsenal FC – Manchester United FC",
+    "durationHours": 2,
+    "cancelled": false,
+    "stamp": "2026-10-23T11:28:58.978Z"
+  },
+  {
+    "id": "fd-560703",
+    "start": "2026-12-27T16:30:00.000Z",
+    "title": "Premier League: Manchester United FC – Nottingham Forest FC",
+    "durationHours": 2,
+    "cancelled": false,
+    "stamp": "2026-10-23T11:28:58.978Z"
+  },
+  {
+    "id": "fd-560717",
+    "start": "2026-12-30T19:30:00.000Z",
+    "title": "Premier League: Manchester United FC – Sunderland AFC",
+    "durationHours": 2,
+    "cancelled": false,
+    "stamp": "2026-10-23T11:28:58.978Z"
+  },
+  {
+    "id": "fd-560730",
+    "start": "2027-01-02T12:30:00.000Z",
+    "title": "Premier League: Brighton & Hove Albion FC – Manchester United FC",
+    "durationHours": 2,
+    "cancelled": false,
+    "stamp": "2026-10-23T11:28:58.978Z"
+  },
+  {
+    "id": "fd-560734",
+    "start": "2027-01-07T20:00:00.000Z",
+    "title": "Premier League: Manchester United FC – Newcastle United FC",
+    "durationHours": 2,
+    "cancelled": false,
+    "stamp": "2026-10-23T11:28:58.978Z"
+  },
+  {
+    "id": "fd-560746",
+    "start": "2027-01-16T15:00:00.000Z",
+    "title": "Premier League: Aston Villa FC – Manchester United FC",
+    "durationHours": 2,
+    "cancelled": false,
+    "stamp": "2026-10-23T11:28:58.978Z"
+  },
+  {
+    "id": "fd-575300",
+    "start": "2027-01-20T20:00:00.000Z",
+    "title": "UEFA Champions League: Manchester United FC – FC Bayern München",
+    "durationHours": 2,
+    "cancelled": false,
+    "stamp": "2026-10-23T11:28:58.978Z"
+  },
+  {
+    "id": "fd-560759",
+    "start": "2027-01-23T15:00:00.000Z",
+    "title": "Premier League: Manchester United FC – Liverpool FC",
+    "durationHours": 2,
+    "cancelled": false,
+    "stamp": "2026-10-23T11:28:58.978Z"
+  },
+  {
+    "id": "fd-575310",
+    "start": "2027-01-27T20:00:00.000Z",
+    "title": "UEFA Champions League: Villarreal CF – Manchester United FC",
+    "durationHours": 2,
+    "cancelled": false,
+    "stamp": "2026-10-23T11:28:58.978Z"
+  },
+  {
+    "id": "fd-560763",
+    "start": "2027-01-30T15:00:00.000Z",
+    "title": "Premier League: Brentford FC – Manchester United FC",
+    "durationHours": 2,
+    "cancelled": false,
+    "stamp": "2026-10-23T11:28:58.978Z"
+  },
+  {
+    "id": "fd-560780",
+    "start": "2027-02-06T15:00:00.000Z",
+    "title": "Premier League: Manchester United FC – Chelsea FC",
+    "durationHours": 2,
+    "cancelled": false,
+    "stamp": "2026-10-23T11:28:58.978Z"
+  },
+  {
+    "id": "fd-560790",
+    "start": "2027-02-10T20:00:00.000Z",
+    "title": "Premier League: Manchester United FC – Brighton & Hove Albion FC",
+    "durationHours": 2,
+    "cancelled": false,
+    "stamp": "2026-10-23T11:28:58.978Z"
+  },
+  {
+    "id": "fd-560798",
+    "start": "2027-02-20T15:00:00.000Z",
+    "title": "Premier League: Nottingham Forest FC – Manchester United FC",
+    "durationHours": 2,
+    "cancelled": false,
+    "stamp": "2026-10-23T11:28:58.978Z"
+  },
+  {
+    "id": "fd-560803",
+    "start": "2027-02-27T15:00:00.000Z",
+    "title": "Premier League: Manchester United FC – Arsenal FC",
+    "durationHours": 2,
+    "cancelled": false,
+    "stamp": "2026-10-23T11:28:58.978Z"
+  },
+  {
+    "id": "fd-560817",
+    "start": "2027-03-03T20:00:00.000Z",
+    "title": "Premier League: Sunderland AFC – Manchester United FC",
+    "durationHours": 2,
+    "cancelled": false,
+    "stamp": "2026-10-23T11:28:58.978Z"
+  },
+  {
+    "id": "fd-560830",
+    "start": "2027-03-13T15:00:00.000Z",
+    "title": "Premier League: Manchester United FC – Everton FC",
+    "durationHours": 2,
+    "cancelled": false,
+    "stamp": "2026-10-23T11:28:58.978Z"
+  },
+  {
+    "id": "fd-560834",
+    "start": "2027-03-20T15:00:00.000Z",
+    "title": "Premier League: Manchester City FC – Manchester United FC",
+    "durationHours": 2,
+    "cancelled": false,
+    "stamp": "2026-10-23T11:28:58.978Z"
+  },
+  {
+    "id": "fd-560844",
+    "start": "2027-04-10T14:00:00.000Z",
+    "title": "Premier League: Manchester United FC – Hull City AFC",
+    "durationHours": 2,
+    "cancelled": false,
+    "stamp": "2026-10-23T11:28:58.978Z"
+  },
+  {
+    "id": "fd-560858",
+    "start": "2027-04-17T14:00:00.000Z",
+    "title": "Premier League: Ipswich Town FC – Manchester United FC",
+    "durationHours": 2,
+    "cancelled": false,
+    "stamp": "2026-10-23T11:28:58.978Z"
+  }
+]
