@@ -301,14 +301,5 @@
     "durationHours": 5,
     "cancelled": false,
     "stamp": "2026-10-23T11:38:56.288Z"
-  },
-  {
-    "id": "ufc-2616632",
-    "start": "2027-02-07T00:00:00.000Z",
-    "title": "UFC Fight Night 296",
-    "location": "Afterpay Arena, Australia",
-    "durationHours": 5,
-    "cancelled": true,
-    "stamp": "2026-10-23T11:36:38.613Z"
   }
 ]
