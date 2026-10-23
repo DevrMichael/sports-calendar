@@ -1,12 +1,12 @@
 # Sportskalender
 
-Henter Manchester United-kamper (Premier League og Champions League) fra football-data.org og UFC-events fra TheSportsDB, og skriver dem til en `.ics`-feed som Google Kalender kan abonnere på.
+Henter Manchester United-kamper (Premier League og Champions League) fra football-data.org og UFC-events fra ESPNs offentlige API, og skriver dem til en `.ics`-feed som Google Kalender kan abonnere på. ESPN-endepunktet er uoffisielt og kan endre seg uten varsel.
 
 ## Oppsett
 
 1. Kopier `.env.example` til `.env` og legg inn `FOOTBALL_DATA_TOKEN`. `.env` er gitignored.
 2. Kjør `npm test` og `npm run build`. Resultatet havner i `docs/calendar.ics`.
-3. Legg `FOOTBALL_DATA_TOKEN` (og eventuelt `THESPORTSDB_KEY`) som GitHub Actions secrets.
+3. Legg `FOOTBALL_DATA_TOKEN` som GitHub Actions secret.
 4. Slå på GitHub Pages: Settings → Pages → Deploy from branch `main`, mappe `/docs`.
 
 ## Legge til i Google Kalender

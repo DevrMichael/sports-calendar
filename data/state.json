@@ -238,5 +238,77 @@
     "durationHours": 2,
     "cancelled": false,
     "stamp": "2026-10-23T11:28:58.978Z"
+  },
+  {
+    "id": "ufc-600061267",
+    "start": "2026-10-24T14:00:00.000Z",
+    "title": "UFC 333: Volkanovski vs. Evloev",
+    "location": "Etihad Arena, Abu Dhabi, United Arab Emirates",
+    "durationHours": 5,
+    "cancelled": false,
+    "stamp": "2026-10-23T11:38:56.288Z"
+  },
+  {
+    "id": "ufc-600061420",
+    "start": "2026-10-31T21:00:00.000Z",
+    "title": "UFC Fight Night: Moicano vs. Nolan",
+    "location": "Meta APEX, Las Vegas, USA",
+    "durationHours": 5,
+    "cancelled": false,
+    "stamp": "2026-10-23T11:38:56.288Z"
+  },
+  {
+    "id": "ufc-600061268",
+    "start": "2026-11-07T22:00:00.000Z",
+    "title": "UFC Fight Night: Bonfim vs. Brady",
+    "location": "Meta APEX, Las Vegas, USA",
+    "durationHours": 5,
+    "cancelled": false,
+    "stamp": "2026-10-23T11:38:56.288Z"
+  },
+  {
+    "id": "ufc-600061400",
+    "start": "2026-11-14T22:00:00.000Z",
+    "title": "UFC 334: Gane vs. Hokit",
+    "location": "Madison Square Garden, New York, USA",
+    "durationHours": 5,
+    "cancelled": false,
+    "stamp": "2026-10-23T11:38:56.288Z"
+  },
+  {
+    "id": "ufc-600061665",
+    "start": "2026-11-21T15:00:00.000Z",
+    "title": "UFC Fight Night: Procházka vs. Stirling",
+    "location": "ABHA Arena, Doha, Qatar",
+    "durationHours": 5,
+    "cancelled": false,
+    "stamp": "2026-10-23T11:38:56.288Z"
+  },
+  {
+    "id": "ufc-600061401",
+    "start": "2026-12-12T22:00:00.000Z",
+    "title": "UFC 335: Oliveira vs. Lopes",
+    "location": "T-Mobile Arena, Las Vegas, USA",
+    "durationHours": 5,
+    "cancelled": false,
+    "stamp": "2026-10-23T11:38:56.288Z"
+  },
+  {
+    "id": "ufc-600062191",
+    "start": "2027-01-30T22:00:00.000Z",
+    "title": "UFC 336",
+    "location": "Scotiabank Arena, Toronto, Canada",
+    "durationHours": 5,
+    "cancelled": false,
+    "stamp": "2026-10-23T11:38:56.288Z"
+  },
+  {
+    "id": "ufc-2616632",
+    "start": "2027-02-07T00:00:00.000Z",
+    "title": "UFC Fight Night 296",
+    "location": "Afterpay Arena, Australia",
+    "durationHours": 5,
+    "cancelled": true,
+    "stamp": "2026-10-23T11:36:38.613Z"
   }
 ]

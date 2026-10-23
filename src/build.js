@@ -18,7 +18,7 @@ const previous = JSON.parse(await readFile(STATE_PATH, 'utf8'));
 
 const [football, ufc] = await Promise.all([
   fetchFootballEvents({ token, now }),
-  fetchUfcEvents({ apiKey: process.env.THESPORTSDB_KEY || '123' }),
+  fetchUfcEvents({ now }),
 ]);
 
 const merged = [

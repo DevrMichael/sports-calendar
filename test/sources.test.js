@@ -52,30 +52,55 @@ test('fetchFootballEvents kaster feil ved HTTP-feil', async () => {
   );
 });
 
-test('toUfcEvent normaliserer tidspunkt og sted', () => {
+test('toUfcEvent mapper ESPN-event med sted', () => {
   const event = toUfcEvent({
-    idEvent: '2558809',
-    strEvent: 'UFC 333 Volkanovski vs Evloev',
-    strTimestamp: '2026-10-24T16:00:00',
-    strVenue: 'Etihad Arena',
-    strCity: 'Abu Dhabi',
-    strCountry: 'United Arab Emirates',
+    id: '600061267',
+    date: '2026-10-24T14:00Z',
+    name: 'UFC 333: Volkanovski vs. Evloev',
+    competitions: [
+      {
+        venue: {
+          fullName: 'Etihad Arena',
+          address: { city: 'Abu Dhabi', country: 'United Arab Emirates' },
+        },
+      },
+    ],
   });
 
   assert.deepEqual(event, {
-    id: 'ufc-2558809',
-    start: '2026-10-24T16:00:00.000Z',
-    title: 'UFC 333 Volkanovski vs Evloev',
+    id: 'ufc-600061267',
+    start: '2026-10-24T14:00:00.000Z',
+    title: 'UFC 333: Volkanovski vs. Evloev',
     location: 'Etihad Arena, Abu Dhabi, United Arab Emirates',
     durationHours: 5,
     cancelled: false,
   });
 });
 
-test('fetchUfcEvents håndterer tom liste', async () => {
-  const fakeFetch = async () => ({ ok: true, json: async () => ({ events: null }) });
+test('toUfcEvent tåler manglende sted', () => {
+  const event = toUfcEvent({ id: '1', date: '2026-10-24T14:00Z', name: 'UFC X' });
 
-  const events = await fetchUfcEvents({ apiKey: '123', season: 2026, fetchImpl: fakeFetch });
+  assert.equal(event.location, '');
+});
+
+test('fetchUfcEvents spør etter datointervall og håndterer tom liste', async () => {
+  const calls = [];
+  const fakeFetch = async (url) => {
+    calls.push(url);
+    return { ok: true, json: async () => ({ events: [] }) };
+  };
+
+  const events = await fetchUfcEvents({
+    now: new Date('2026-10-23T12:00:00Z'),
+    fetchImpl: fakeFetch,
+  });
 
   assert.deepEqual(events, []);
+  assert.match(calls[0], /dates=20261023-20270421/);
+});
+
+test('fetchUfcEvents kaster feil ved HTTP-feil', async () => {
+  const fakeFetch = async () => ({ ok: false, status: 500 });
+
+  await assert.rejects(fetchUfcEvents({ now: new Date(), fetchImpl: fakeFetch }), /svarte 500/);
 });
