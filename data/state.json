@@ -301,5 +301,23 @@
     "durationHours": 5,
     "cancelled": false,
     "stamp": "2026-10-23T11:38:56.288Z"
+  },
+  {
+    "id": "nt-401861165",
+    "start": "2026-11-14T17:00:00.000Z",
+    "title": "Wales at Norway",
+    "location": "Ullevaal Stadion, Oslo, Norway",
+    "durationHours": 2,
+    "cancelled": false,
+    "stamp": "2026-10-23T12:02:17.066Z"
+  },
+  {
+    "id": "nt-401861194",
+    "start": "2026-11-17T19:45:00.000Z",
+    "title": "Norway at Denmark",
+    "location": "Parken Stadium, Copenhagen, Denmark",
+    "durationHours": 2,
+    "cancelled": false,
+    "stamp": "2026-10-23T12:02:17.066Z"
   }
 ]

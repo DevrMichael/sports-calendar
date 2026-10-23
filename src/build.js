@@ -3,6 +3,7 @@ import { dirname } from 'node:path';
 import { buildCalendar } from './ics.js';
 import { keepInWindow, mergeSource } from './merge.js';
 import { fetchFootballEvents } from './sources/footballData.js';
+import { fetchNationalTeamEvents } from './sources/nationalTeam.js';
 import { fetchUfcEvents } from './sources/ufc.js';
 
 const STATE_PATH = 'data/state.json';
@@ -16,14 +17,16 @@ if (!token) {
 const now = new Date();
 const previous = JSON.parse(await readFile(STATE_PATH, 'utf8'));
 
-const [football, ufc] = await Promise.all([
+const [football, ufc, national] = await Promise.all([
   fetchFootballEvents({ token, now }),
   fetchUfcEvents({ now }),
+  fetchNationalTeamEvents({ now }),
 ]);
 
 const merged = [
   ...mergeSource(previous, football, 'fd-', now),
   ...mergeSource(previous, ufc, 'ufc-', now),
+  ...mergeSource(previous, national, 'nt-', now),
 ];
 const events = keepInWindow(merged, now);
 
@@ -31,4 +34,6 @@ await mkdir(dirname(ICS_PATH), { recursive: true });
 await writeFile(ICS_PATH, buildCalendar(events, { name: 'Sport' }));
 await writeFile(STATE_PATH, `${JSON.stringify(events, null, 2)}\n`);
 
-console.log(`Skrev ${events.length} hendelser (${football.length} fotball, ${ufc.length} UFC).`);
+console.log(
+  `Skrev ${events.length} hendelser (${football.length} fotball, ${ufc.length} UFC, ${national.length} landslag).`,
+);
