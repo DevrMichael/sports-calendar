@@ -240,15 +240,6 @@
     "stamp": "2026-10-23T11:28:58.978Z"
   },
   {
-    "id": "ufc-600061267",
-    "start": "2026-10-24T14:00:00.000Z",
-    "title": "UFC 333: Volkanovski vs. Evloev",
-    "location": "Etihad Arena, Abu Dhabi, United Arab Emirates",
-    "durationHours": 5,
-    "cancelled": false,
-    "stamp": "2026-10-23T11:38:56.288Z"
-  },
-  {
     "id": "ufc-600061420",
     "start": "2026-10-31T21:00:00.000Z",
     "title": "UFC Fight Night: Moicano vs. Nolan",
@@ -296,7 +287,7 @@
   {
     "id": "ufc-600062191",
     "start": "2027-01-30T22:00:00.000Z",
-    "title": "UFC 336",
+    "title": "UFC 336: Van vs. Kape",
     "location": "Scotiabank Arena, Toronto, Canada",
     "durationHours": 5,
     "cancelled": false,
