@@ -285,6 +285,15 @@
     "stamp": "2026-10-23T11:38:56.288Z"
   },
   {
+    "id": "ufc-600062421",
+    "start": "2027-01-16T22:00:00.000Z",
+    "title": "UFC Fight Night: Dallas",
+    "location": "American Airlines Center, Dallas, USA",
+    "durationHours": 5,
+    "cancelled": false,
+    "stamp": "2026-10-28T10:57:05.132Z"
+  },
+  {
     "id": "ufc-600062191",
     "start": "2027-01-30T22:00:00.000Z",
     "title": "UFC 336: Van vs. Kape",
@@ -292,6 +301,15 @@
     "durationHours": 5,
     "cancelled": false,
     "stamp": "2026-10-23T11:38:56.288Z"
+  },
+  {
+    "id": "ufc-600062420",
+    "start": "2027-02-06T19:00:00.000Z",
+    "title": "UFC Fight Night: Salkilld vs. Saint Denis",
+    "location": "Afterpay Arena, Sydney, Australia",
+    "durationHours": 5,
+    "cancelled": false,
+    "stamp": "2026-10-28T10:57:05.132Z"
   },
   {
     "id": "nt-401861165",
