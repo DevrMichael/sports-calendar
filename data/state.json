@@ -1,13 +1,5 @@
 [
   {
-    "id": "fd-560626",
-    "start": "2026-10-31T12:30:00.000Z",
-    "title": "Premier League: Chelsea FC – Manchester United FC",
-    "durationHours": 2,
-    "cancelled": false,
-    "stamp": "2026-10-23T11:28:58.978Z"
-  },
-  {
     "id": "fd-575383",
     "start": "2026-11-03T20:00:00.000Z",
     "title": "UEFA Champions League: Manchester United FC – AS Roma",
@@ -238,15 +230,6 @@
     "durationHours": 2,
     "cancelled": false,
     "stamp": "2026-10-27T10:11:20.584Z"
-  },
-  {
-    "id": "ufc-600061420",
-    "start": "2026-10-31T21:00:00.000Z",
-    "title": "UFC Fight Night: Moicano vs. Nolan",
-    "location": "Meta APEX, Las Vegas, USA",
-    "durationHours": 5,
-    "cancelled": false,
-    "stamp": "2026-10-23T11:38:56.288Z"
   },
   {
     "id": "ufc-600061268",
