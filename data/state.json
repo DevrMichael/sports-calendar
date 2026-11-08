@@ -232,15 +232,6 @@
     "stamp": "2026-11-03T12:36:23.239Z"
   },
   {
-    "id": "ufc-600061268",
-    "start": "2026-11-07T22:00:00.000Z",
-    "title": "UFC Fight Night: Cortes Acosta vs. Walker",
-    "location": "Meta APEX, Las Vegas, USA",
-    "durationHours": 5,
-    "cancelled": false,
-    "stamp": "2026-10-23T11:38:56.288Z"
-  },
-  {
     "id": "ufc-600061400",
     "start": "2026-11-14T22:00:00.000Z",
     "title": "UFC 334: Gane vs. Hokit",
@@ -257,6 +248,15 @@
     "durationHours": 5,
     "cancelled": false,
     "stamp": "2026-10-23T11:38:56.288Z"
+  },
+  {
+    "id": "ufc-600062700",
+    "start": "2026-12-05T15:00:00.000Z",
+    "title": "UFC Fight Night: Adesanya vs Magomedov",
+    "location": "ANB Arena, Riyadh, Saudi Arabia",
+    "durationHours": 5,
+    "cancelled": false,
+    "stamp": "2026-11-08T11:40:21.758Z"
   },
   {
     "id": "ufc-600061401",
