@@ -319,14 +319,5 @@
     "durationHours": 5,
     "cancelled": false,
     "stamp": "2026-11-15T12:28:39.626Z"
-  },
-  {
-    "id": "nt-401861194",
-    "start": "2026-11-17T19:45:00.000Z",
-    "title": "Norway at Denmark",
-    "location": "Parken Stadium, Copenhagen, Denmark",
-    "durationHours": 2,
-    "cancelled": false,
-    "stamp": "2026-10-23T12:02:17.066Z"
   }
 ]
