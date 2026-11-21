@@ -319,5 +319,23 @@
     "durationHours": 5,
     "cancelled": false,
     "stamp": "2026-11-15T12:28:39.626Z"
+  },
+  {
+    "id": "nt-401936091",
+    "start": "2027-03-27T17:00:00.000Z",
+    "title": "England at Norway",
+    "location": "",
+    "durationHours": 2,
+    "cancelled": false,
+    "stamp": "2026-11-21T13:13:43.260Z"
+  },
+  {
+    "id": "nt-401936090",
+    "start": "2027-03-30T18:45:00.000Z",
+    "title": "Norway at England",
+    "location": "Wembley Stadium, London, England",
+    "durationHours": 2,
+    "cancelled": false,
+    "stamp": "2026-11-21T13:13:43.260Z"
   }
 ]
