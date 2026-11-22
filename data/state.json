@@ -240,15 +240,6 @@
     "stamp": "2026-11-17T14:05:19.541Z"
   },
   {
-    "id": "ufc-600061665",
-    "start": "2026-11-21T15:00:00.000Z",
-    "title": "UFC Fight Night: Procházka vs. Stirling",
-    "location": "ABHA Arena, Doha, Qatar",
-    "durationHours": 5,
-    "cancelled": false,
-    "stamp": "2026-10-23T11:38:56.288Z"
-  },
-  {
     "id": "ufc-600062700",
     "start": "2026-12-05T15:00:00.000Z",
     "title": "UFC Fight Night: Adesanya vs Magomedov",
